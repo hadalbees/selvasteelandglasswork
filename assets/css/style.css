@@ -1537,6 +1537,13 @@ ul, ol {
   line-height: 1.5;
 }
 
+.contact-meta-label {
+  color: var(--gold-light);
+  font-weight: 600;
+  display: inline-block;
+  min-width: 54px;
+}
+
 .contact-detail-meta a:hover {
   color: var(--gold-light);
 }
@@ -1833,6 +1840,11 @@ textarea.form-control {
   fill: var(--gold-light);
   flex-shrink: 0;
   margin-top: 3px;
+}
+
+.footer-contact-item strong {
+  color: var(--gold-light);
+  font-weight: 600;
 }
 
 .footer-contact-item a:hover {
